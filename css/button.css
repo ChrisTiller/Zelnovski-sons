@@ -1,0 +1,26 @@
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(25,181,254);
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    font-family: Helvetica;
+    transition: 0.25s
+}
+
+.button:hover {
+
+    background-color: rgb(25,181,254);
+    color: white;
+
+}
+
+.button:focus {
+
+    background-color: rgb(25,181,254);
+    color: white;
+
+}

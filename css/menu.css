@@ -1,0 +1,21 @@
+
+.menu {
+
+	position: absolute; 
+	top: 0px; 
+	left: 0px; 
+	background-color: rgb(34,167,240); 
+	background: linear-gradient( to right, rgb(34,167,240), rgb(25,181,254) 40%, rgb(25,81,254) 90%);
+
+}
+
+.menu a {
+
+	color:white;
+	display: block;
+	font-family: Helvetica;
+	font-size: 60px;
+	font-weight: 10px;
+	padding-left: 10px;
+
+}

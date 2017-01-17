@@ -1,0 +1,42 @@
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	border-color: rgb(34,167,240);
+	font-family: Helvetica;
+	font-size: 20px;
+}
+
+th {
+	padding: 8px;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+
+td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+
+
+tr:nth-child(even) {
+	background-color: #e2e2e2;
+	transition: background-color 0.25s;
+}
+
+tr:nth-child(odd) {
+	background-color: #ffffff;
+	transition: background-color 0.25s;
+}
+
+tr:hover {
+	background-color: #66CCFF;
+	transition: background-color 0.75s;
+}
+
+tr:hover th {
+	background-color: #ffffff;
+	transition: background-color 0s;
+}
